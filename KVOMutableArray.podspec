@@ -33,7 +33,7 @@ Pod::Spec.new do |s|
   end
 
   s.subspec 'ReactiveCocoaSupport' do |sp|
-    sp.dependency 'ReactiveObjC'
+    sp.dependency 'ReactiveCocoa', '~> 2.5'
     sp.dependency 'KVOMutableArray/Core'
     sp.source_files = 'KVOMutableArray/Classes/KVOMutableArray+ReactiveCocoaSupport.{h,m}'
   end
